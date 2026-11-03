@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T14:52:52Z",
+  "generated_at": "2026-11-03T14:58:39Z",
   "source_repo": "y1-community/y1-stock-rom",
   "mirror_repo": "y1-community/y1-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -82,6 +82,46 @@
         "updater.jpg"
       ],
       "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.1/stats.txt"
+    },
+    {
+      "tag": "3.1.2",
+      "title": "Portable Flashing Package: Original System Software 3.1.2 for Innioasis Y1",
+      "source_title": "Original System Software 3.1.2 for Innioasis Y1",
+      "source_url": "https://github.com/y1-community/y1-stock-rom/releases/tag/3.1.2",
+      "published_at": "2026-07-16T02:03:48Z",
+      "prerelease": false,
+      "source_notes": "Features improved support for AirPods Pro 2, AirPods 3 and later",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 421086331,
+          "sha256": "63bc0eac97ed29bcb0ad7a5d3a1426f70fd28ab3290f84a32ee4783d818e14f8",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 597945493,
+          "sha256": "f15a9a0d595fb18118c5c0e3ecc8f12372a551dc6d6117ebf966c90f1d8dead1",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 437641144,
+          "sha256": "1f4be94d0522d3b184cbdb04dc7c40b01f1937637dde94800df001cf5ed9921f",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "updater.jpg"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/stats.txt"
     }
   ],
   "source_readme": {
