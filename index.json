@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T14:58:39Z",
+  "generated_at": "2026-11-03T16:18:24Z",
   "source_repo": "y1-community/y1-stock-rom",
   "mirror_repo": "y1-community/y1-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -84,6 +84,47 @@
       "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.1/stats.txt"
     },
     {
+      "tag": "3.2.0-fm",
+      "title": "Portable Flashing Package: System Software 3.2.0 for Innioasis Y2 with FM Radio",
+      "source_title": "System Software 3.2.0 for Innioasis Y2 with FM Radio",
+      "source_url": "https://github.com/y1-community/y1-stock-rom/releases/tag/3.2.0-fm",
+      "published_at": "2026-09-13T12:42:26Z",
+      "prerelease": false,
+      "source_notes": "This release adds FM Radio functionality to supported Y2 players, please note that some earlier Y2 revisions may not have the underlying functionality needed for FM Radio, there is an alternative release of 3.2.0 available for those in these circumstances.",
+      "assets": [
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 591801786,
+          "sha256": "601a95d1b560eb1974ce72a586e651c0549f62b9ec61ac1f1e9ede43373c63a9",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 743112505,
+          "sha256": "5d15363ac7162e4f8431ba9ac179ee717de2c72ebfd17c31f7556e6f60e29481",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-macos.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "macos",
+          "size": 543016843,
+          "sha256": "59faa0564799ca6e6bbedb6878ffa9584ec3942eabf4dc55c8735730a3d8682a",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_y2.zip",
+        "system.img",
+        "updater.jpg"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/stats.txt"
+    },
+    {
       "tag": "3.1.2",
       "title": "Portable Flashing Package: Original System Software 3.1.2 for Innioasis Y1",
       "source_title": "Original System Software 3.1.2 for Innioasis Y1",
@@ -122,6 +163,247 @@
         "updater.jpg"
       ],
       "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/stats.txt"
+    },
+    {
+      "tag": "3.1.7",
+      "title": "Portable Flashing Package: Original System Software 3.1.7 for Innioasis Y2",
+      "source_title": "Original System Software 3.1.7 for Innioasis Y2",
+      "source_url": "https://github.com/y1-community/y1-stock-rom/releases/tag/3.1.7",
+      "published_at": "2026-06-22T17:03:20Z",
+      "prerelease": false,
+      "source_notes": "# This is the original launch-day 3.1.7 firmware for Innioasis Y2\r\n\r\nThis can be used to restore your Y2 back to its factory conditions and get things back up and running if something has gone wrong.",
+      "assets": [
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 591035756,
+          "sha256": "fcd166b48543ff9aeb99e0811cd1645fffbd8c6984b04204ba4c8b05ce52ee9d",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 742346475,
+          "sha256": "a2b783f443a616318a81c4e002941bb209d284f27a11f47635db52ae3e6d9314",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-macos.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "macos",
+          "size": 542250766,
+          "sha256": "01dfb87e76229a3d1851daa88d081b2b95c46c51a5835e24ea734d54f4a51180",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_y2.zip",
+        "updater.jpg"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/stats.txt"
+    },
+    {
+      "tag": "3.0.7",
+      "title": "Portable Flashing Package: System Software 3.0.7 for Innioasis Y1",
+      "source_title": "System Software 3.0.7 for Innioasis Y1",
+      "source_url": "https://github.com/y1-community/y1-stock-rom/releases/tag/3.0.7",
+      "published_at": "2026-04-23T09:52:31Z",
+      "prerelease": false,
+      "source_notes": "**Changes in 3.0.7** \r\n\r\nThis release has a new E-Book reading feature and a new theme named HoloFacet.\r\n\r\nTheme creators that haven't previously implemented their eBook icons are advised to do so to retain theme compatibility.",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 420959494,
+          "sha256": "3f2060866dc1eed3e204dc793eea22459cf4d8573bc93207f8be71c4dc96b40f",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 597818656,
+          "sha256": "8128352673c47811fa311ead23a6d712230a52b45138f82a9bf4ce14c55fa2ca",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 437514310,
+          "sha256": "c6435668306a306f52227678c13e75d4d0cd1a414cbf33561693e1961257825d",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "updater.jpg"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/stats.txt"
+    },
+    {
+      "tag": "3.0.2",
+      "title": "Portable Flashing Package: System Software 3.0.2",
+      "source_title": "System Software 3.0.2",
+      "source_url": "https://github.com/y1-community/y1-stock-rom/releases/tag/3.0.2",
+      "published_at": "2025-12-12T15:15:38Z",
+      "prerelease": false,
+      "source_notes": "**Notice: Please do not downgrade to 3.0.2 from newer firmware versions like 3.0.7 as this will break your device, a solution is incoming. Please [contact Innioasis](https://www.innioasis.com/pages/contact) if you have been affected by this,** \r\n\r\nNew in System Software 3.0.2:\r\n\r\nLanguage selection at first start-up for new users, in line with new retail units, users will be asked to select their language after installing the firmware, or when they take a new Y1 from the box.\r\n\r\nPerformance and stability improvements\r\n\r\nKnown issues:\r\nADB is currently not enabled on builds newer than 2.1.9. This means that screenshots will can not be taken on this release and that theme and file transfers using Smart Drop in updater will require you to have USB Storage Mode enabled.",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 430934157,
+          "sha256": "e0d7d494d68f3f0e7b664dee872b3e67aa77c1412aee6969d157b59dcdc6fa7d",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 607793319,
+          "sha256": "4594c3c22142663a75fbd98f792133e4efbdf9bed456586e846e9dd51a110c80",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 447488985,
+          "sha256": "0611e9f6df88284f3f58ebd78d1b4b9f8bc33819178b3f6ffc1b56d60019c42b",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "updater.jpg"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/stats.txt"
+    },
+    {
+      "tag": "2.8.2",
+      "title": "Portable Flashing Package: System Software Update 2.8.2",
+      "source_title": "System Software Update 2.8.2",
+      "source_url": "https://github.com/y1-community/y1-stock-rom/releases/tag/2.8.2",
+      "published_at": "2025-10-28T18:47:56Z",
+      "prerelease": false,
+      "source_notes": "Video Fix: Resolved an issue that prevented videos from being paused reliably.\r\n\r\nVideo Stability: Improved handling of video playback to prevent the application from crashing (fixing IllegalStateException on startup).\r\n\r\nVideo Management: Enhanced logic for checking video folders to ensure that non-folder files are skipped.\r\n\r\nMultilingual Support:\r\n\r\nUser Interface (UI):\r\n\r\nImplemented a scrolling marquee effect for file names that are too long to fit on the screen.\r\n\r\nFixed several bugs related to the Theme interface.\r\n\r\nFile Management:\r\n\r\nImproved folder deletion logic to ensure all checks for video files are completed.\r\n\r\nChanged file name sorting to be case-insensitive (treating \"A\" and \"a\" the same).\r\n\r\nMusic & Video Sync:\r\n\r\nFixed a bug where the music database was not synchronized when video folders were deleted.\r\n\r\nCrucial Fix: Ensured that music playback is completely stopped when a video starts playing.\r\n\r\nDatabase: Database version updated from 3 to 4.\r\n\r\nKey Lock: Modified the Key Lock implementation to ensure it persists correctly after a restart.\r\n\r\nVideo Thumbnails: Reduced the number of concurrent processes for generating video thumbnails to prevent conflicts and improve stability.\r\n\r\nVideo Thumbnails: Optimized thumbnail generation logic, now saving thumbnails as files for better performance.\r\n\r\nVideo Error Handling: Adjusted video error detection (error code -38 is no longer treated as a playback failure).\r\n\r\nSearch/Multi-select: Fixed an issue where the multi-select status and search results were not cleared after adding items to a playlist.\r\n\r\nLocalization: Corrected German and French translations.\r\n\r\nPlayback List: Fixed issues where default playback list names were not set according to the device's primary language after a factory reset.\r\n\r\nTheming/Customization: Fixed bugs related to theme deletion and ensuring the default wallpaper is restored correctly.\r\n\r\nTheme Installation: Default themes are now copied in the background to prevent copying from stopping if the screen turns off.\r\n\r\n# You can install this update from Innioasis Updater, using SP Flash Tool, or MTK Client with the correct drivers for your system.\r\n\r\n# Simply head to www.innioasis.com/pages/download for driver, utility and update instructions for your device.\r\n",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 431209975,
+          "sha256": "219c0e21f138b55a0a0b4d2bb7ef2ff57b146255510e5dfad7ec5f2afa59dd56",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 582520825,
+          "sha256": "60dc6c5e0d5ebae6143f79880ee4af192d0b80007f477aaa58b92a04653f7dbf",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 422210771,
+          "sha256": "876ce8f6665d3b3a79e79fdb1efea1a7e1cc218e9c9c78696a8eff915af046e0",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "updater.jpg"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/stats.txt"
+    },
+    {
+      "tag": "type-b-1.7.6",
+      "title": "Portable Flashing Package: System Software Update 1.7.6 (for type B Y1)",
+      "source_title": "System Software Update 1.7.6 (for type B Y1)",
+      "source_url": "https://github.com/y1-community/y1-stock-rom/releases/tag/type-b-1.7.6",
+      "published_at": "2025-10-08T00:22:11Z",
+      "prerelease": false,
+      "source_notes": "If you installed a firmware update 2.0.0 or newer on your Y1 device and the scroll wheel stopped working, please install this version on your device instead.",
+      "assets": [
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 413014868,
+          "sha256": "658ba89608310cf9988f7abf239880d756b5e85e35b93610f508ec7f2239170d",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 564325587,
+          "sha256": "0042a80bcdaace39430ffb0cc9e01c4406f44bc0d1f86659a651a38e8086eac0",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 364230016,
+          "sha256": "8570b76f9d64a7211435f1c6f12a4c1e3863b809ff06426ed9a3f150f9a2aaa5",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_type_b.zip",
+        "updater.jpg"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/stats.txt"
+    },
+    {
+      "tag": "ADB-2.1.9",
+      "title": "Portable Flashing Package: System Software Update 2.1.9",
+      "source_title": "System Software Update 2.1.9",
+      "source_url": "https://github.com/y1-community/y1-stock-rom/releases/tag/ADB-2.1.9",
+      "published_at": "2025-07-18T23:09:12Z",
+      "prerelease": false,
+      "source_notes": "Adds Spanish language support.",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 412249303,
+          "sha256": "65c892921c6e46d45c14f3402409ca34c867f927d0830d8cfae02a17945badc6",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 589108199,
+          "sha256": "5c3db31d1a39c43cf69d389f1dd6e497cf746fe2e69c1d29c0224181db8bdd20",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 428801913,
+          "sha256": "2981b139413884c912312fb516059d3ba9d623fd65ea0c6dc6e321bcb08d238d",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "com.innioasis.y1_2.1.9.apk",
+        "rom.zip",
+        "updater.jpg"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/stats.txt"
     }
   ],
   "source_readme": {
