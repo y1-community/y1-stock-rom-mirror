@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T11:39:58Z",
+  "generated_at": "2026-11-06T15:47:20Z",
   "source_repo": "y1-community/y1-stock-rom",
   "mirror_repo": "y1-community/y1-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -192,28 +192,34 @@
       "source_notes": "# This is the original launch-day 3.1.7 firmware for Innioasis Y2\r\n\r\nThis can be used to restore your Y2 back to its factory conditions and get things back up and running if something has gone wrong.",
       "assets": [
         {
-          "name": "rom_y2-windows.zip",
-          "source_asset": "rom_y2.zip",
-          "platform": "windows",
-          "size": 591035756,
-          "sha256": "2a4fa9031c2b8896efa86fa7781131c235a77e1cefdd6806725fbb13c9ff66bf",
-          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-windows.zip"
-        },
-        {
           "name": "rom_y2-linux.zip",
           "source_asset": "rom_y2.zip",
           "platform": "linux",
-          "size": 742346475,
-          "sha256": "3e2e6d8f4bd2b894930dc8e98a1321f7c8eb66a92f26ba06bbbf8e383815c69f",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 730223720,
+          "sha256": "6b7e80146c3a2c437a2197f846a304a89d60ccab3c9a80c4c18ae64f0b5539f9",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-linux.zip"
         },
         {
           "name": "rom_y2-macos.zip",
           "source_asset": "rom_y2.zip",
           "platform": "macos",
-          "size": 541459095,
-          "sha256": "ed8cab08b0c08557ff26f73025f49b6f5ccf5e1b06c1cff1580302c721674c40",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 587108145,
+          "sha256": "21ed49c221bfb467a8b37aca7691ec394af61e04018035f4206dcb930c256d4f",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-macos.zip"
+        },
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 614380648,
+          "sha256": "0d65fa4d49f76357b57fdfc950c2cf960414de8a2abe03c9c6b9fb88f1a5f10c",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-windows.zip"
         }
       ],
       "original_assets": [
