@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T20:07:10Z",
+  "generated_at": "2026-11-10T22:01:20Z",
   "source_repo": "y1-community/y1-stock-rom",
   "mirror_repo": "y1-community/y1-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -11,35 +11,40 @@
       "os": "linux",
       "arch": "x86-64",
       "suffix": "-linux.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     },
     {
       "key": "linux-arm64",
       "os": "linux",
       "arch": "arm64",
       "suffix": "-linux-arm64.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     },
     {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
       "suffix": "-macos.zip",
-      "layout": "beside_dmg"
+      "layout": "beside_dmg",
+      "legacy": false
     },
     {
       "key": "windows",
       "os": "windows",
       "arch": "x86-64",
       "suffix": "-windows.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     },
     {
       "key": "windows-arm64",
       "os": "windows",
       "arch": "arm64",
       "suffix": "-windows-arm64.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     }
   ],
   "releases": [
@@ -58,9 +63,19 @@
           "platform": "linux",
           "model": "Y2",
           "type": "Stock",
-          "size": 731054882,
-          "sha256": "d241d9b6573437942400a1fa1d25ece302c9e9a0246c4e727d7497517522e37e",
+          "size": 702869073,
+          "sha256": "49ea1f5a9865639204c14d13468c8a801b60afbbcb10928a2cd6ebe3607147ae",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-linux-arm64.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux-arm64",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 527774015,
+          "sha256": "4ba8b46aa63dd1826e84165bdfbd4811c2b3f89dfc4ab5afc4ae732511c2d0c7",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-linux-arm64.zip"
         },
         {
           "name": "rom_y2-macos.zip",
@@ -68,8 +83,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 463221558,
-          "sha256": "cce063826b30710a9cf056ee0809ec3e27c61715e1a77146f62f7f8f334aa1bb",
+          "size": 462796026,
+          "sha256": "5834467008e3b9fd1da6220eb327925f2ec5d5c9a2d43e05dfc62814d34b3cb2",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-macos.zip"
         },
         {
@@ -78,8 +93,8 @@
           "platform": "windows",
           "model": "Y2",
           "type": "Stock",
-          "size": 549565900,
-          "sha256": "4e035ddb98e4003e3318d961ceefed38f2b27d8ef8b4f94dd61c6ba9250778d8",
+          "size": 548748719,
+          "sha256": "d03d35244ccb6e6b075652808f575f2aef5bdb43fc1928b775174cc0f1014bae",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-windows.zip"
         }
       ],
@@ -104,9 +119,19 @@
           "platform": "linux",
           "model": "Y2",
           "type": "Stock",
-          "size": 731055306,
-          "sha256": "51b891a518798c0ccfe8a5d0d8edcfdf3698a5dbca2e9d020797f46672ffea3b",
+          "size": 702869132,
+          "sha256": "971ca399a632b8a4dce63722af97ed5b7bf5e63bec7d6915c3a3243f972f1ad6",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-linux-arm64.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux-arm64",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 527774074,
+          "sha256": "ef11c838ac6e124d7ab89488e87633b68e6e71efbf5a1505d1f99c178bdef934",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-linux-arm64.zip"
         },
         {
           "name": "rom_y2-macos.zip",
@@ -114,8 +139,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 463221970,
-          "sha256": "c004a5f25354926f70d29eec76248f0279d19e72a699828ea69ed54cb25b6602",
+          "size": 462796073,
+          "sha256": "6558ee86ae4b35190b260c398d5fcf3094bd81aabaa98069aa9afd0899fc1500",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-macos.zip"
         },
         {
@@ -124,8 +149,8 @@
           "platform": "windows",
           "model": "Y2",
           "type": "Stock",
-          "size": 549566324,
-          "sha256": "df5fb4ffc5480a46dc0e3871dc2aad376be7c16a33e3feedeeb37b5559d3c2a7",
+          "size": 548748778,
+          "sha256": "4d8119f48d092b77fd0c1144537d52c5287249fe3666338ee8b98adfd35dcfbb",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-windows.zip"
         }
       ],
@@ -151,9 +176,19 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 566321736,
-          "sha256": "bac3d256ad1427724fbbafbc0b4dfdc56d51482d260159fa7e61ab5dea3140ec",
+          "size": 547828994,
+          "sha256": "f71e6f675b75b17bc354d8689aa3b108567c43c54886950b5f4b4e22745a1da5",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-linux.zip"
+        },
+        {
+          "name": "rom-linux-arm64.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux-arm64",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 372733936,
+          "sha256": "2b3fbd0cd02320e8d7af9a08a13136f31cd7923778784e6f0a4c47817a8f3d7e",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-linux-arm64.zip"
         },
         {
           "name": "rom-macos.zip",
@@ -161,8 +196,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 300289018,
-          "sha256": "230cb0051b04bdd31fd6a31ebeae7614d7a3a24235814b1f9fb58d95a0fa6b04",
+          "size": 300051308,
+          "sha256": "fae14d67634f677c4559b60c6b98b9e5a81936b439d99caacfb357df1dc3c8e5",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-macos.zip"
         },
         {
@@ -171,8 +206,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 384832754,
-          "sha256": "96dbfe23e870c018d78f9dec31f828f74c0df00c7c6895956e93e6c80db13c2c",
+          "size": 384200360,
+          "sha256": "3ac02c183987f191365c892d3d093f9d1e11fc703011fe53405d19c8a3ac1a6e",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-windows.zip"
         }
       ],
@@ -197,9 +232,19 @@
           "platform": "linux",
           "model": "Y2",
           "type": "Stock",
-          "size": 730223720,
-          "sha256": "015cd38a48f8d30a362549948b3599534669e5e32b23ef2a6943eb6325e4c4ab",
+          "size": 702027184,
+          "sha256": "78a9d9ad8b20f733478c3e0981e8fa079df56454d0b4af41ab7af0814361b9c7",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-linux-arm64.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux-arm64",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 526932126,
+          "sha256": "d56cd0a14aa3a2a373d28692e79ec21046f0b83c32aa496f9c3a42ba60b702d5",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-linux-arm64.zip"
         },
         {
           "name": "rom_y2-macos.zip",
@@ -207,8 +252,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 462390393,
-          "sha256": "957f4103e7e08d2ce3377960d4a69e6a9a3254fbcdebcf5fc4246fdd51b4ebe9",
+          "size": 461954134,
+          "sha256": "7bdbc6d1d3848aa1d2e3ebbac1aa1ed23991b2926f7f19191f30d7cb4ac8dce2",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-macos.zip"
         },
         {
@@ -217,8 +262,8 @@
           "platform": "windows",
           "model": "Y2",
           "type": "Stock",
-          "size": 548734738,
-          "sha256": "0e656fcfee790f5aa5feba2c88bcfacc634aa270b3752cf7c8f7671c08dd320d",
+          "size": 547906830,
+          "sha256": "ab7738b74de39afda776d2eccd0db9ff7e1c6857c5b645327ba49048f1b10e8e",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.7/rom_y2-windows.zip"
         }
       ],
@@ -243,9 +288,19 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 566194899,
-          "sha256": "50bc51ad0f0fc1f1508cd814af9b866bc3542a3196d205147ee2d4f8f0eb4ef9",
+          "size": 547698936,
+          "sha256": "41ccf539c822b27fa10ce4dc8f56bc412bc0f35bb1783f705c7a2f6fefccce2b",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-linux.zip"
+        },
+        {
+          "name": "rom-linux-arm64.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux-arm64",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 372603878,
+          "sha256": "7ab48416c79bf00833afd418cf078ac3deae44d49b0a1c9c1a9f1824647e6db6",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-linux-arm64.zip"
         },
         {
           "name": "rom-macos.zip",
@@ -253,8 +308,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 300162182,
-          "sha256": "3a0465cfb3b31a0050a7948c69048bdfb7b84c5a50cb727cc8d276441edca52d",
+          "size": 299921251,
+          "sha256": "5f7ce8442cffcf01988bf57a226b6be89372a3756318e624e0c7ead74f0c6637",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-macos.zip"
         },
         {
@@ -263,8 +318,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 384705917,
-          "sha256": "bd9d53652992279ab7191da3cb5b472c5e6a19850b1b2039d6c4ec08e1f00a80",
+          "size": 384070302,
+          "sha256": "7f1c1b4d8674dfae7b0e432293598e3f3597720a056d0472f5c1f2ef66bc6244",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-windows.zip"
         }
       ],
@@ -289,9 +344,19 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 576169598,
-          "sha256": "a979a0564c344250779e5b019e06c3dddbd38de2e0124e9fbd16e0d73b168c11",
+          "size": 557658991,
+          "sha256": "c2f21e01acafe226b761a9865a4c03f30620906b64e84f6ca879a2fc0f9d3b18",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-linux.zip"
+        },
+        {
+          "name": "rom-linux-arm64.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux-arm64",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 382563933,
+          "sha256": "394023ac09b1b638f090a229667819efd19defaaf87e27b26e4210becb5714f3",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-linux-arm64.zip"
         },
         {
           "name": "rom-macos.zip",
@@ -299,8 +364,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 310136895,
-          "sha256": "3c4b2510bdf04aa0b6eb184ef7ef90ecd5177d771de691e95c1febd2c5ee5f36",
+          "size": 309881320,
+          "sha256": "206af9908b8841576f0b6716d9cddbab2690145bf9db57e1c16ee4bbf385408c",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-macos.zip"
         },
         {
@@ -309,8 +374,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 394680616,
-          "sha256": "2960da0d85d8c031d974805da92d88c966f03c5f8976b88640ffdf9466107f37",
+          "size": 394030357,
+          "sha256": "c4971a3c16afe302d9938d3e1fc9725d794d7a3d5f57e49aca4dd265c7953b77",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-windows.zip"
         }
       ],
@@ -335,9 +400,19 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 576126891,
-          "sha256": "34e4cb281d75106f392529660a8c8fc660f1f538bba08d9b87f147d5e8a65d9f",
+          "size": 557622482,
+          "sha256": "038057c8a1e0fbe2c5b42803511455ce5ae75d8e52f8f8b6b284112cc14577de",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-linux.zip"
+        },
+        {
+          "name": "rom-linux-arm64.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux-arm64",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 382527424,
+          "sha256": "6c9fa40a6571a39c36533b6dad501ad78452d39612b13769a935f119d6e9e941",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-linux-arm64.zip"
         },
         {
           "name": "rom-macos.zip",
@@ -345,8 +420,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 310094181,
-          "sha256": "f1bbfe7a9cac5ce085e0d97cc02bb9934e28bda107a2e374fd8c8d14f9b7bc26",
+          "size": 309844804,
+          "sha256": "3638136f2d47d0a7e39b80a15ad83cbcd0cd5269591cd1610b24259c7a7c729e",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-macos.zip"
         },
         {
@@ -355,8 +430,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 394637909,
-          "sha256": "1dbd516fe3e2c194cbd30a5380c6f8f27e1cd3c269a1e795396449b9fa4830ae",
+          "size": 393993848,
+          "sha256": "3245e186ab0d3f0463fa67532c7638a395612014b6fc77ee27e6b35ae053b738",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-windows.zip"
         }
       ],
@@ -381,9 +456,19 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type B",
-          "size": 554328663,
-          "sha256": "4d6c820a8a406ae2c883bd7482975c5e57f3b05fe6ce4a4e41d69e1ac04dca0e",
+          "size": 526310393,
+          "sha256": "561bb9035c4384064c0e0b49d0db3f2fc9d5cbcbcbab48003d97bbfb3bdf27f9",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-linux-arm64.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux-arm64",
+          "model": "Y1",
+          "type": "Type B",
+          "size": 351215335,
+          "sha256": "93bbb26029e0e7190c6632d61767c211a68ca9afeb1dc8abf137f551cdd490fa",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-linux-arm64.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
@@ -391,8 +476,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 286495345,
-          "sha256": "8bb17a9da51d68419061c4c6eaa35bbc52c64928585819f600d8a70b5a5512a6",
+          "size": 286237352,
+          "sha256": "8f0f3c60764fdca8d7cdaf59e95f662f20cc8ce2fc791991d6e4488c1d17e28e",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-macos.zip"
         },
         {
@@ -401,8 +486,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 372839681,
-          "sha256": "1c4820d69133ac3b3ad76af0356fac59f83486cf9ffdcf6bb9e9457241c67e52",
+          "size": 372190039,
+          "sha256": "c8727ec372616ee3da5987c45ce3489e516a5cb39c3b175b62521ef6368124a7",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-windows.zip"
         }
       ],
@@ -427,9 +512,19 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 557461079,
-          "sha256": "12bb96ba4889d6f2388ab3a222d210d015aa833b777b40b45c188eefd6728340",
+          "size": 538956130,
+          "sha256": "60b282ce189de64b288d284bfdc818d450faae16743869f1333e86dba26ffcae",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-linux.zip"
+        },
+        {
+          "name": "rom-linux-arm64.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux-arm64",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 363861072,
+          "sha256": "bbe49739a7e5f4fdbdb756ebfa085dbd9408fd5ac9c64da7cfbdffb4f32a5034",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-linux-arm64.zip"
         },
         {
           "name": "rom-macos.zip",
@@ -437,8 +532,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 291428369,
-          "sha256": "35d8b28a19ad7ad6000350ae4d0ac6d60db2bffab6496213a9881172ea03a02b",
+          "size": 291178452,
+          "sha256": "d84c3759afa781d08127e62dd3f874b39697c3a76d4fc70471b0600b6dbc5400",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-macos.zip"
         },
         {
@@ -447,8 +542,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 375972097,
-          "sha256": "313015a3ab60945cff9f28bd13ac33ab4d2867d9a46c1665994409ead8dd8325",
+          "size": 375327496,
+          "sha256": "5fa29333941c7bdd418c7ad42c9b645de831684c9421ea24fd2f978f78222429",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-windows.zip"
         }
       ],
