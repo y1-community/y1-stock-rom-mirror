@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-12T19:35:04Z",
+  "generated_at": "2026-11-14T03:21:59Z",
   "source_repo": "y1-community/y1-stock-rom",
   "source_fallback_repo": "ryan-specter/y1-stock-rom",
   "mirror_repo": "y1-community/y1-stock-rom-mirror",
@@ -67,6 +67,89 @@
     }
   ],
   "releases": [
+    {
+      "tag": "3.2.4-fm",
+      "title": "Portable Flashing Package: Original System Software 3.2.4 for Innioasis Y2",
+      "source_title": "Original System Software 3.2.4 for Innioasis Y2",
+      "source_url": "https://github.com/y1-community/y1-stock-rom/releases/tag/3.2.4-fm",
+      "source_fallback_url": "https://github.com/ryan-specter/y1-stock-rom/releases/tag/3.2.4-fm",
+      "published_at": "2026-11-13T23:34:58Z",
+      "prerelease": false,
+      "source_notes": "\"General performance and stability improvements.\"\r\n\r\nThis is the software currently being shipped on Y2 retail units.\r\n\r\n(Innioasis have once again failed to release this as an update to existing users, nor do they actually post what changes their firmwares include - this firmware release was imaged from a retail Y2 unit purchased November 12 by the Community Firmware Archive and Updater CE maintainer - tested against both of Updater's installation methods: SP Flash Tool and MTKclient and the underlying tools themselves on a pre 3.2.4 and a 3.2.4 unit with success. Image was taken before any use of the player)",
+      "assets": [
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 685495138,
+          "sha256": "49cdc07b02aecbafb3261f8d641c3cf3b1dab60db1b704bb0fe97ea2f5557e5d",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-windows-legacy.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows-legacy",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 447256325,
+          "sha256": "3495a8d6592c2ae9863af2ce0f0ac83e158f5eaa0ad13fc8ca4b95be619c09f1",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-windows-legacy.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 732816462,
+          "sha256": "edb912a55d7f72129ffcb6e317fa2b2eaeda5edda2072ccc5e6c9f4d6f9a42c4",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-linux-arm64.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux-arm64",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 557720696,
+          "sha256": "b9620c0e483ac9df1ecaddb3acbea56c3f612fd6fdded026604f111dfe16847f",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-arm64.zip"
+        },
+        {
+          "name": "rom_y2-linux-legacy.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux-legacy",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 445670610,
+          "sha256": "8cd9c039e6a034e6cce7d9cb1360acb101c7a734d5cfd9ae5648cfd231135051",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-legacy.zip"
+        },
+        {
+          "name": "rom_y2-macos.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "macos",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 492129071,
+          "sha256": "cc49295c3eb89fa173bba3e8b280c0724a3f2dd0ff03264880961fd8e03da966",
+          "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_y2.zip",
+        "updater.jpg"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/stats.txt"
+    },
     {
       "tag": "3.2.1",
       "title": "Portable Flashing Package: System Software 3.2.1 for Innioasis Y2",
