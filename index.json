@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-14T03:21:59Z",
+  "generated_at": "2026-11-14T21:59:12Z",
   "source_repo": "y1-community/y1-stock-rom",
   "source_fallback_repo": "ryan-specter/y1-stock-rom",
   "mirror_repo": "y1-community/y1-stock-rom-mirror",
@@ -83,8 +83,8 @@
           "platform": "windows",
           "model": "Y2",
           "type": "Stock",
-          "size": 685495138,
-          "sha256": "49cdc07b02aecbafb3261f8d641c3cf3b1dab60db1b704bb0fe97ea2f5557e5d",
+          "size": 656384866,
+          "sha256": "4cf280d03db130674292a45d0d659ea592635a5353240fee93633e8e91c85a04",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-windows.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-windows.zip"
         },
@@ -94,8 +94,8 @@
           "platform": "windows-legacy",
           "model": "Y2",
           "type": "Stock",
-          "size": 447256325,
-          "sha256": "3495a8d6592c2ae9863af2ce0f0ac83e158f5eaa0ad13fc8ca4b95be619c09f1",
+          "size": 418146053,
+          "sha256": "240cfff5d784c965fbae53f2ad4f05b7a11cc994aec4e47784c55c08726c0d49",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-windows-legacy.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-windows-legacy.zip"
         },
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "Y2",
           "type": "Stock",
-          "size": 732816462,
-          "sha256": "edb912a55d7f72129ffcb6e317fa2b2eaeda5edda2072ccc5e6c9f4d6f9a42c4",
+          "size": 703706190,
+          "sha256": "5ef68d75af2d65a2fb98a2a9a44b2a12c784e0b6271d1eb802ca09de3ec27c51",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "Y2",
           "type": "Stock",
-          "size": 557720696,
-          "sha256": "b9620c0e483ac9df1ecaddb3acbea56c3f612fd6fdded026604f111dfe16847f",
+          "size": 528610424,
+          "sha256": "6863aa20ec977ee3977411ccc39874c887967dbaf21003986bae9abc7d791de2",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-arm64.zip"
         },
@@ -127,8 +127,8 @@
           "platform": "linux-legacy",
           "model": "Y2",
           "type": "Stock",
-          "size": 445670610,
-          "sha256": "8cd9c039e6a034e6cce7d9cb1360acb101c7a734d5cfd9ae5648cfd231135051",
+          "size": 416560338,
+          "sha256": "5bfa2d11502a187cd70e5d913ce827d23b64373c206d077770507894d5873402",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-legacy.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-legacy.zip"
         },
@@ -138,8 +138,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 492129071,
-          "sha256": "cc49295c3eb89fa173bba3e8b280c0724a3f2dd0ff03264880961fd8e03da966",
+          "size": 463018799,
+          "sha256": "c09be581f0a4acf409c0dacbef27674b6c1e4bb86de0d9733914d05058304bc3",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-macos.zip"
         }
