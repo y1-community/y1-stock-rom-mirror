@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T16:54:29Z",
+  "generated_at": "2026-11-20T20:37:24Z",
   "source_repo": "y1-community/y1-stock-rom",
   "source_fallback_repo": "ryan-specter/y1-stock-rom",
   "mirror_repo": "y1-community/y1-stock-rom-mirror",
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "Y2",
           "type": "Stock",
-          "size": 644654880,
-          "sha256": "f59c1b3636de7e5a3ba923508818132c1d06506c124611fdc8e6a9e49179bc16",
+          "size": 644599179,
+          "sha256": "a45b40e858b60b1a7a3069d7c3e21804d8a74b416466d4ea7641d6e8c5957898",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "Y2",
           "type": "Stock",
-          "size": 469558883,
-          "sha256": "774d95b65fe05eeb4c98abf3efea57a389800c77d7f85305f893b36724f4d917",
+          "size": 469503439,
+          "sha256": "9e95380728e1328849c1e6c6c38e908d1d5c4fec1a3f6eb30e366ee6d3920505",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-linux-arm64.zip"
         },
@@ -138,8 +138,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 505155342,
-          "sha256": "df507a55b8ffb526290378dab722d694246f7671e2fb83e8587489247307c3ef",
+          "size": 452474493,
+          "sha256": "b6af77fc61e24b9c655ec195e0b14735351f245a12a1afb91d13b333cc0567e4",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.4-fm/rom_y2-macos.zip"
         }
@@ -188,8 +188,8 @@
           "platform": "linux",
           "model": "Y2",
           "type": "Stock",
-          "size": 644355937,
-          "sha256": "f613028ce6007fb0624efcb23fbbf54076cb832e4cf233b615b896ce0eadab99",
+          "size": 644300236,
+          "sha256": "bc30d6907ebb039038a97a23c11a67f086340bce4ef0b5c02acb53b9760046e7",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-linux.zip"
         },
@@ -199,8 +199,8 @@
           "platform": "linux-arm64",
           "model": "Y2",
           "type": "Stock",
-          "size": 469259940,
-          "sha256": "c7f9b735c1bbf28da0598c0846046b75d65d42bb348df377ae6b44212904e6b6",
+          "size": 469204496,
+          "sha256": "7daa3df108c9d16a1d874217e972174895add11a362990dcd2abbf669061313c",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-linux-arm64.zip"
         },
@@ -221,8 +221,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 504856412,
-          "sha256": "2a717c55d0d55511b99dc9f781eaad9eddcc5854bd988ad4a9f46de1469b6507",
+          "size": 452175563,
+          "sha256": "1105e5c4f2bd53832e6db80749519c1c19469330cd88cbd6b4cb752afdaa47fe",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.1/rom_y2-macos.zip"
         }
@@ -271,8 +271,8 @@
           "platform": "linux",
           "model": "Y2",
           "type": "Stock",
-          "size": 644355996,
-          "sha256": "1226d7626e2d343fd2577b4fc97e2080b573dcd6592fa609708bed3c9a414334",
+          "size": 644300295,
+          "sha256": "d98cef76106ef2f2dbc20e2d2e96d6a38a87608fdf378fcc09c38b6f36f508cf",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-linux.zip"
         },
@@ -282,8 +282,8 @@
           "platform": "linux-arm64",
           "model": "Y2",
           "type": "Stock",
-          "size": 469259999,
-          "sha256": "8919dd1432e3868dd5576fa85ae6c08bc565819d283113db3a4563a9f9bd9f25",
+          "size": 469204555,
+          "sha256": "f2c811f48c0fdfc54e458088adad18b96ab5df271b664f35f7715f409fd638f5",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-linux-arm64.zip"
         },
@@ -304,8 +304,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 504856459,
-          "sha256": "f5338ed292ca3e3243370b4c612e158ecf0de2650d02d17406fcd3c13c8c654e",
+          "size": 452175610,
+          "sha256": "5bda02349f2767be2bbb7cf437d53b05fa1675810e3a3ac13c6075f02568b778",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.2.0-fm/rom_y2-macos.zip"
         }
@@ -355,8 +355,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 489315858,
-          "sha256": "67abdac2bce8fed1a629dd0b28b2431a519a87b4e55caf5ba5210da57a278925",
+          "size": 489260157,
+          "sha256": "fae296ae3b5991ff13bf757b8eb1b5188fa9ea051cc4133bfb738bed5f1096fa",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.1.2/rom-linux.zip"
         },
@@ -366,8 +366,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 314219861,
-          "sha256": "f8b1d484de64686fd444a32f1ea379a25b412c211b5924bc3591c59b43fc0660",
+          "size": 314164417,
+          "sha256": "502eedcb8b671716e31690a5b52551643e58a99ab7c943c2e2539c8821ad1a6c",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.1.2/rom-linux-arm64.zip"
         },
@@ -388,8 +388,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 342111694,
-          "sha256": "b522090a70ecc17467828f7909952f60652a6288ca1443cfc33d03afd025f3b4",
+          "size": 289430845,
+          "sha256": "c06df0b2844ca9784aac4a93e3695e0fc0af96193ea7a2826f013f269a3f90a3",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.1.2/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.1.2/rom-macos.zip"
         }
@@ -499,8 +499,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 489185800,
-          "sha256": "670a70df48fd9737bcd43219815e47f161a283264d49cb92bd8be5e87e61ce3c",
+          "size": 489130099,
+          "sha256": "65543d63aaadb78ab4cef29cc8c0cdff57c782fa936d6b0db8296938c0bb76eb",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.0.7/rom-linux.zip"
         },
@@ -510,8 +510,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 314089803,
-          "sha256": "9ac7f90f0e21a4b9ea88aed4f4b919bc5a60850bcc1e7e794bcf45c34fcfbb52",
+          "size": 314034359,
+          "sha256": "6161382998864ee510816c9ee16fca8dc712b0153da86c7033eb5453b1dae159",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.0.7/rom-linux-arm64.zip"
         },
@@ -532,8 +532,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 341981637,
-          "sha256": "a1463c69f73baa7d131eff451a3cb05dcfda3ffa9b80535b5714dec032f3825e",
+          "size": 289300788,
+          "sha256": "01e05b1769a03e13de7ba76f431fc219bf4374e14221359979c0ef6384528c0d",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.7/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.0.7/rom-macos.zip"
         }
@@ -582,8 +582,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 499145855,
-          "sha256": "3a97cc9e30f78a3acffd05cfb4e63ce4d40f8f4c50343cab0db99aa2f1dded6d",
+          "size": 499090154,
+          "sha256": "8497f4de0245d6e84cf3afedf5a730c4f4cda25b4fe510b82f30a6d087c72c97",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.0.2/rom-linux.zip"
         },
@@ -593,8 +593,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 324049858,
-          "sha256": "a6eead4388d5ebdf1bd32669d589b5882638f027088f22df4e592443b2ce72ec",
+          "size": 323994414,
+          "sha256": "872d95718bf901653ab12daebaf158ce0dc7b7d2a8aa4d8c44a9aec63842e1c8",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.0.2/rom-linux-arm64.zip"
         },
@@ -615,8 +615,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 351941706,
-          "sha256": "58da6503936179680aff8573ef0faf04103c841bc2f576fa93e3e0b7783b0063",
+          "size": 299260857,
+          "sha256": "78fa76a07a76ed9e459ada2e398d14edde05a4f5b13ce4896ee0cf8bd513daa4",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/3.0.2/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/3.0.2/rom-macos.zip"
         }
@@ -665,8 +665,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 499109346,
-          "sha256": "fa38fd430fab770a9d94be23aaf328b70fb0d426a05c3f9e34cad1c99a0bdbea",
+          "size": 499053645,
+          "sha256": "73e5173dd0b3ce40068b1e733ab0cc20ed735484e5f97a1dc61f81d775e58356",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/2.8.2/rom-linux.zip"
         },
@@ -676,8 +676,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 324013349,
-          "sha256": "6740d4f2b890ddd4de58a313dc7ced322d117645e8ba4401b461402d7f9247da",
+          "size": 323957905,
+          "sha256": "394a4def3a870eb7564d764db41d6b5bcdd96ee0aa9a4c821c8ab52834fe414f",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/2.8.2/rom-linux-arm64.zip"
         },
@@ -698,8 +698,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 351905190,
-          "sha256": "9f63491f5e8fa99b1c12e60b84a8031fb999c15b15411e20daa89550c6c6bbc2",
+          "size": 299224341,
+          "sha256": "7e89683d1742ba5100110443ed83e090aff6486b070b40acdf8c78990acf4fef",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/2.8.2/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/2.8.2/rom-macos.zip"
         }
@@ -748,8 +748,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type B",
-          "size": 467797257,
-          "sha256": "f6e4de38a730ab9ac9146d495f13dfa156dae77438f4af892d61a73ba4b8edc7",
+          "size": 467741556,
+          "sha256": "4cb5de4f655cc93216d6c38976b32b0e02124c598e96068ee685c9e7dfc6dc6f",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-linux.zip"
         },
@@ -759,8 +759,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type B",
-          "size": 292701260,
-          "sha256": "89de8f0bd69668632d0beaefedb716192808ec79927d1b5f45e977bea00017e3",
+          "size": 292645816,
+          "sha256": "483cbbcaaa93a29bf4efee5d2b3e86cdd7ab7e3821afcf8fc166a3a086cb969c",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-linux-arm64.zip"
         },
@@ -781,8 +781,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 328297738,
-          "sha256": "a9ac9a814c73452bc12b58d1174ecb9dad2767e2897c58e6952093a692755508",
+          "size": 275616889,
+          "sha256": "51e21d82783e0d4464cd234800a32bdcb39bb960cbcf1d8cb161fe79c725207e",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/type-b-1.7.6/rom_type_b-macos.zip"
         }
@@ -831,8 +831,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 480442994,
-          "sha256": "ff082154d41935bc723d2b654eeee7a637cf8222761de126522ed1669bd63dd7",
+          "size": 480387293,
+          "sha256": "1614f0cf406e36d9c50f5ba604656d0c73747e3d0ded87e0e0c5814f18b14d5f",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-linux.zip"
         },
@@ -842,8 +842,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 305346997,
-          "sha256": "f2dd14dd88952781e58ad20b62bc63609e1485f693e163237eac8100ddbf457d",
+          "size": 305291553,
+          "sha256": "9286f074e2e098323146aea9f2030cd80e20d114dfbeacfbb28a0f4f35254202",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-linux-arm64.zip"
         },
@@ -864,8 +864,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 333238838,
-          "sha256": "27f98b8c5d9771e68448e7c25a3c9e4b267d345f6ee599c85e931995a7958424",
+          "size": 280557989,
+          "sha256": "2455d104d5f8e7b0712a10c1fd5c8e1f28acc4dc1c32a59dd493e0b59249b064",
           "url": "https://github.com/y1-community/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-stock-rom-mirror/releases/download/ADB-2.1.9/rom-macos.zip"
         }
