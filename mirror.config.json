@@ -4,6 +4,8 @@
   "branch": "main",
   "updater_repo": "y1-community/updater-ce-neo",
   "post_install": [],
+  "post_install2": [],
+  "icon": "https://github.com/y1-community/y1-stock-rom/releases/download/3.2.4-fm/updater.jpg",
   "title_prefix": "Portable Flashing Package: ",
   "copy_original_assets": true,
   "source_readme": {
